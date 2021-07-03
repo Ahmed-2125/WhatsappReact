@@ -1,0 +1,115 @@
+.convoright{
+    flex: 0.65;
+    display: flex;
+   flex-direction: column;
+}
+.convoright-header
+{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+
+}
+.convoright-headerinfo
+{
+    flex: 1;
+    padding-left: 20px;
+    justify-content: space-around;
+}
+.convoright-headerinfo > p
+{
+color: gray;
+
+}
+.convoright-message
+{
+position: relative;
+font-size: 16px;
+padding:10px;
+border-radius: 10px;
+width: fit-content;
+background-color:white;
+margin-bottom: 30px;
+
+
+
+}
+.convoright-reciever
+{
+margin-left: auto;
+background-color: #dcf8c6;
+
+
+}
+
+.convoright-footer
+{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+
+    border-top: 1px solid black;
+
+}
+.convoright-footer > form
+{
+    flex: 1;
+    display: flex;
+
+}
+.convoright-footer > form >input
+{
+    flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+    
+}
+
+.convoright-footer > form > button
+{
+   display: none;
+}
+
+.convoright-footer > form > .MuiSvgIcon-root
+{
+    padding: 10px;
+    color: black;
+   
+}
+
+
+.convoright-name
+{
+    position: absolute;
+    align-items: center;
+    top: 0px;
+   
+    font-weight: 500;
+    font-size: xx-small;
+
+
+}
+.convoright-time
+{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+.convoright-headerright
+{
+    display: flex;
+    
+    min-width: 70%;
+}
+.convoright-body
+{
+    flex: 1;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+
+}

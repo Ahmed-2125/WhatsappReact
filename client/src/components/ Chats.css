@@ -1,0 +1,25 @@
+.sidebar-avatar
+{
+    display: flex;
+    padding: 10px;
+    border-bottom:1px solid black;
+
+}
+.sidebar-avatar:hover
+{
+  
+background-color: silver;
+}
+
+.chat-info > h3
+{
+    font-size: medium;
+
+}
+
+a
+ {
+
+    text-decoration: none !important;
+     color:blue;
+}
