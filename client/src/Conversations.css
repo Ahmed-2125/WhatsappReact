@@ -24,26 +24,7 @@
 color: gray;
 
 }
-.convoright-message
-{
-position: relative;
-font-size: 16px;
-padding:10px;
-border-radius: 10px;
-width: fit-content;
-background-color:white;
-margin-bottom: 30px;
 
-
-
-}
-.convoright-reciever
-{
-margin-left: auto;
-background-color: #dcf8c6;
-
-
-}
 
 .convoright-footer
 {
@@ -74,30 +55,7 @@ background-color: #dcf8c6;
    display: none;
 }
 
-.convoright-footer > form > .MuiSvgIcon-root
-{
-    padding: 10px;
-    color: black;
-   
-}
 
-
-.convoright-name
-{
-    position: absolute;
-    align-items: center;
-    top: 0px;
-   
-    font-weight: 500;
-    font-size: xx-small;
-
-
-}
-.convoright-time
-{
-    margin-left: 10px;
-    font-size: xx-small;
-}
 .convoright-headerright
 {
     display: flex;
@@ -106,10 +64,43 @@ background-color: #dcf8c6;
 }
 .convoright-body
 {
+    background-image: url ("ahh.jpeg");
     flex: 1;
     background-repeat: repeat;
     background-position: center;
     padding: 30px;
     overflow: scroll;
+
+}
+.convoright-message
+{
+position: relative;
+font-size: 16px;
+padding:10px;
+border-radius: 10px;
+width: fit-content;
+background-color:white;
+margin-bottom: 30px;
+
+
+
+}
+.convoright-reciever
+{
+margin-left: 600px;
+background-color: #99c577;
+
+
+}
+
+
+.convoright-name
+{
+    position: absolute;
+    align-items: center;
+    top: 0px;
+    font-weight: 500;
+    font-size: xx-small;
+
 
 }

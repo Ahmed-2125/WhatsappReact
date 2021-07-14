@@ -17,11 +17,7 @@
     justify-content: space-between;
     min-width: 10vw;
 }
-.sidebar-headerRight>.MuiSvgIcon-root{
-    margin-right: 2vw;
-    font-size: 24px !important;
 
-}
 .sidebar-search
 {
    display: flex;
@@ -42,23 +38,18 @@ border-radius: 20px;
 
 
 }
-.sidebar-searchContainer> input {
+.sidebar-searchContainer> input
+ {
     border: none;
     margin-left: 10px;
 
 }
 
-.sidebar-searchContainer> .MuiSvgIcom-root{
-    color: gray;
-    padding: 10px;
 
-}
 .sidebar-chats
 {
 flex: 1;
 background-color:whitesmoke;
 overflow: scroll;
 }
-
-
 

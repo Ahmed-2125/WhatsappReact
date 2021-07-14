@@ -6,3 +6,4 @@
 # WhatsappReact
 # whatsapp-in-ts
 # whatsapp-typescript
+# whatsapp-ts
